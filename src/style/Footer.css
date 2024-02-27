@@ -1,0 +1,125 @@
+.footer {
+    margin-top: 5rem;
+    background: #091242;
+    max-width: 1920px;
+    width: 100%;
+    height: 900px;   
+    margin-top: 60px;
+}
+
+.footerpic{
+    max-width:1920px;
+    width: 100%;
+    height: 412px;
+}
+
+.logof {
+position: relative;
+margin-top: 20px;
+background: #091242;
+height: 50px;
+padding: 15px;
+}
+
+.choke {
+    display: flex;
+    margin-left: 14rem;
+}
+
+.foot {
+    width: 200px;
+}
+
+.oot {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    margin-left: 10rem;
+    list-style: none;
+
+}
+
+.oja {
+    display: flex;
+    position: absolute;
+    top: 6958px;
+    left: 413px;
+    gap: 23px;
+    margin-top: 26px;
+    margin-left: 30px;
+    list-style: none;
+
+}
+
+.oja li {
+    gap: 10px;
+    margin-top:12px;
+    width: 110px;
+   
+}
+.snd {
+    background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+    color: black;
+    height:50px;
+    width: 120px;
+    margin-top: 3px;
+    cursor: pointer;
+    
+}
+
+.snd:hover {
+    background: #ccc;
+}
+
+.inp {
+    width: 250px;
+    height: 50px;
+    gap: 20px;
+}
+
+.tyy {
+    background:#4E5683;
+    max-width: 1920px;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    left: 0;
+    top: 1;
+}
+/* 
+.copyright {
+    border: 1px solid #4E5683;
+    height: 20px;
+   
+
+} */
+
+.cy {
+    margin-top: 13rem;
+    margin-left: 13rem;
+    display: flex;
+    font-size: 13.5px;
+
+   
+}
+
+.right {
+    font-family: krub;
+    color: #8388A7;
+}
+
+.sub li {
+    display: flex;
+}
+
+@media (width <=48em) {
+    .footer {
+        width: 115em
+    }
+}
+
+
+
+
+

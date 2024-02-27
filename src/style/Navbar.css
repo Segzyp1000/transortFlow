@@ -1,0 +1,55 @@
+.navbar {
+    color: #fff;
+    background: #111C55;
+    height:60px;
+    max-width: 1920px;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    
+}
+
+nav {
+    margin-left: 120px;
+    display: flex;
+    
+}
+
+.menu {
+    margin-left: 90px;
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+    
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.men {
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+}
+
+.men li {
+    margin-left: 20px;
+}
+
+
+.cote {
+    margin-left: 20px;
+    width: 140px;
+    height:60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #fff;
+    font-size: 17px;
+}
+
+@media (width <=48em) {
+    .navbar {
+        width:120em;
+    }
+}
+

@@ -1,0 +1,41 @@
+.ej {
+    background: #ccc;
+    width: 95px;
+
+}
+.banner {
+    color: #000;
+    background: #fff;
+    width: 1000px;
+    height: 51px;
+    display: flex;
+    margin-left: 8rem;
+    margin-top: 2.7rem;
+    gap: 33px;
+}
+.services {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 801px;
+    gap: 5px;
+    
+} 
+
+.transport, .warehouse, .air, .local {
+    display: flex;   
+    gap: 16px;
+}
+
+.headed h1 {
+    font-weight: bolder;
+} 
+
+.trans {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.tra {
+    margin-top: 3rem;
+}
+

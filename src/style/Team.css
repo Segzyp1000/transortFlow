@@ -1,0 +1,35 @@
+ .team {
+    color: #000;
+    width: 700px;
+    margin-top: 7rem;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-left: 14rem;
+}
+
+
+
+article {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.group {
+    text-align: center;
+}
+.together {
+    display: flex;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+
+
+    
+    
+}
+
+.person {
+    width: 300px;
+}
