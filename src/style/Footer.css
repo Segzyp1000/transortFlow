@@ -65,6 +65,7 @@ padding: 15px;
     width: 120px;
     margin-top: 3px;
     cursor: pointer;
+    list-style: none;
     
 }
 
@@ -107,6 +108,12 @@ padding: 15px;
 .right {
     font-family: krub;
     color: #8388A7;
+    list-style: none;
+    display: flex;
+}
+
+.right li {
+    margin-left: 5px;
 }
 
 .sub li {
