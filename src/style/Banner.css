@@ -1,8 +1,4 @@
-.ej {
-    background: #ccc;
-    width: 95px;
 
-}
 .banner {
     color: #000;
     background: #fff;
@@ -12,6 +8,12 @@
     margin-left: 8rem;
     margin-top: 2.7rem;
     gap: 33px;
+}
+
+.ej {
+    background: #ccc;
+    width: 95px;
+
 }
 .services {
     display: grid;
@@ -27,7 +29,7 @@
 }
 
 .headed h1 {
-    font-weight: bolder;
+    font-weight: bold;
 } 
 
 .trans {
@@ -39,3 +41,25 @@
     margin-top: 3rem;
 }
 
+@media (width <=48em) {
+    .banner {
+        margin-left: 12em;
+        width: 120em;
+    }
+    .ej {
+        width: 250px;
+        font-size: 25px;
+        padding: 18px;
+        font-weight: bold;
+    }
+
+    .headed {
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    .joy {
+        font-size: 22px;
+        width: 350px;
+    }
+}

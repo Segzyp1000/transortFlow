@@ -8,12 +8,12 @@ const About = () => {
       <div className="abou">
         <div className="tell">
           <h1>We provide full range global logical solution</h1>
-          <p>
+          <p className="leverage">
             Leverage agile frameworks to provide a robust synopsis for strategy
             foster collaborative thinking to further the overall value
             proposition
           </p>
-          <p>
+          <p className="leverage">
             Organically grow holistic world view of disruptive innovation via
             workplace diversity and empowerment
           </p>

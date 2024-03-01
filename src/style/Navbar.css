@@ -10,7 +10,7 @@
 }
 
 nav {
-    margin-left: 120px;
+    margin-left: 110px;
     display: flex;
     
 }
@@ -39,17 +39,30 @@ nav {
 
 
 .cote {
-    margin-left: 20px;
+    margin-left: 35px;
     width: 140px;
     height:60px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background: #fff;
+   
+    background: #ffffff;
     font-size: 17px;
 }
 
 @media (width <=48em) {
     .navbar {
-        width:120em;
+        width: 120em;
+    }
+
+    nav {
+        margin-left: 12em;
+    }
+    .men li {
+        margin-left: 1.5em;
+        font-size: 1.23em;
+    }
+
+    .menu li {
+        margin-left: 1.5em;
+        font-size: 1.6em;
     }
 }
 

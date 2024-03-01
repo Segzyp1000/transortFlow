@@ -60,6 +60,22 @@
 
 @media (width <=48em) {
     .about {
+        
         width: 120em;
+        height: 400px;
     }
+
+    .abou {
+        margin-left: 15em;
+    }
+
+    .leverage {
+        font-size: 25px;
+    }
+
+    .sided {
+        margin-top: 1em;
+    }
+
+    
 }

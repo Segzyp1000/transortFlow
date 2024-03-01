@@ -1,12 +1,11 @@
 
     .header {
         background-color:#091242;
-        max-width: 120em;
+        max-width: 1920px;
         width: 100%;
-        height: 10em;
+        height: 160px;
         color:#fff;   
-    
-        
+        top: 0;
     
     
         
@@ -14,35 +13,50 @@
 
     .logo-header {
         display: flex;
-        
-        width: 75em;
-        height: 4.25em;
-        margin-top:2.875em;
-        margin-left: 10em;
+        justify-content: center;
+        width: 1,199px;
+        height: 68px;
+        margin-top:46px;
+        margin-left: 185px;
         position: absolute;
         left: 0;
-        gap: 2.75em
+        gap: 44px
     } 
-     .list{
+    .list {
         display: flex;  
-        width: 25em;
-        height: 5em;
+        width: 400px;
+        height: 80px;
         list-style: none;
-        gap:1.06em;
+        gap:15px;
         cursor: pointer;
         
     } 
 
     .iyami {
-        width: 9.6em;
-        height: 2.25em;
-        margin-top: 1em;
-        margin-left: 0.32em;
+        width: 155px;
+        height: 36px;
+        margin-top: 16px;
+        margin-left: 5.13px;
+    }
+
+
+    @media (width <=48em) {
+        .header {
+            
+            width: 120em;
+        }
+
+        .logo-header {
+            width: 45em;
+            position: absolute;
+            left: 0;
+            height: 7em;
+            
+        }
+
+        .list {
+            width: 30em;
+        }
     }
 
   
- @media (width <=48em) {
-    .header {
-        width: 115em;
-    }
-    } 

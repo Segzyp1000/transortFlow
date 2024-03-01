@@ -57,6 +57,18 @@ section {
 
 @media (width <=48em) {
     .backg {
-        width:120em;
+        max-width: 120em;
+        width: 100em;
+    
+
+    }
+
+    .world {
+        margin-top: 7em;
+        margin-left: 11em;
+    }
+    .works {
+        font-size: 26px;
+        width: 200px;
     }
 }

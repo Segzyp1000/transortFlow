@@ -94,6 +94,10 @@
 }
 @media (width <=48em) {
     .why {
-        width: 115em;
+        width: 120em;
+        
+    }
+    .plane {
+        margin-left: 8em;
     }
 }

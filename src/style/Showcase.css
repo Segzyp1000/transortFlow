@@ -16,7 +16,7 @@
     height: 375px;
     gap: 4px;
     color: #fff; 
-    margin-top: 5rem;
+    margin-top: 3rem;
     margin-left: 9rem;
     position: absolute;
 
@@ -24,12 +24,14 @@
 .lead {
     background: #041C3780;
     width: 280px;
-    height: 23px;
+    height: 50px;
+    padding: 15px;
     
 }
 
 .details {   
     width: 500px;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 24.24px;
@@ -39,14 +41,37 @@
 .btn-cote {
     width: 194px;
     height: 60px;
-    font-size: 13px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
     background: url('/public/accent/image/Background-btn.png');
 }
 
 @media (width <=48em) {
     .showcase {
+        
         width: 120em;
+        height:550px;
+       
     }
+    .show {
+        margin-left: 13em;
+    }
+    .lead {
+        font-size: 1.25em;
+        padding: 1em;
+        width:20em;
+        height: 4em;
+        font-weight: bold;
+    }
+   .details {
+    font-size: 20px;
+    line-height: 26.2px;
+
+   }
+   .btn-cote {
+    font-size: 22px;
+    height: 70px;
+    font-weight: bold;
+   }
 }
 
