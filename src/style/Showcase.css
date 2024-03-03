@@ -7,6 +7,7 @@
     background-size:cover;
     background-position:center;   
     height: 500px; 
+    width: 1400px;
     top: 100px;
     left: -38px;
 }
@@ -48,20 +49,19 @@
 
 @media (width <=48em) {
     .showcase {
-        
-        width: 120em;
+        width: 105em;
         height:550px;
-       
     }
     .show {
         margin-left: 13em;
     }
     .lead {
-        font-size: 1.25em;
+        font-size:2em;
         padding: 1em;
-        width:20em;
-        height: 4em;
+        width:18em;
+        height: 3em;
         font-weight: bold;
+        font-family: "Roboto", sans-serif;
     }
    .details {
     font-size: 20px;
@@ -74,4 +74,3 @@
     font-weight: bold;
    }
 }
-

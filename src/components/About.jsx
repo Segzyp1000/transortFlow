@@ -7,7 +7,9 @@ const About = () => {
       <div className="about">''</div>
       <div className="abou">
         <div className="tell">
-          <h1>We provide full range global logical solution</h1>
+          <h1 className="leve">
+            We provide full range global logical solution
+          </h1>
           <p className="leverage">
             Leverage agile frameworks to provide a robust synopsis for strategy
             foster collaborative thinking to further the overall value

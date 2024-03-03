@@ -1,8 +1,8 @@
 
     .header {
-        background-color:#091242;
+        background:#091242;
         max-width: 1920px;
-        width: 100%;
+        width: 1400px;
         height: 160px;
         color:#fff;   
         top: 0;
@@ -42,21 +42,19 @@
 
     @media (width <=48em) {
         .header {
-            
-            width: 120em;
+            width: 105em;
         }
 
         .logo-header {
-            width: 45em;
+            width: 50em;
             position: absolute;
             left: 0;
-            height: 7em;
             
         }
 
         .list {
-            width: 30em;
+            width: 40em;
         }
     }
 
-  
+    

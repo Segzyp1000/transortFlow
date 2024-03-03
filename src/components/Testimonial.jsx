@@ -7,7 +7,7 @@ const Testimonial = () => {
       <div className="ego">
         <div className="test">
           <p className="ti">Testimonial</p>
-          <h2>What Our Customert Say</h2>
+          <h2 className="tip">What Our Customert Say</h2>
         </div>
         <div className="owo">
           <img src="./accent/image/Arrow.png" alt="arr" className="arrow" />

@@ -11,18 +11,18 @@ const Touch = () => {
           <p className="touchp">
             Leverage agile frameworks to provide a robust synopsis for strategy
             foster collaborative thinking to further the overall value.
-            <ul className="agile">
-              <li>
-                <img src="./accent/image/Time.png" alt="contact" />
-              </li>
-              <li>
-                <img src="./accent/image/Email.png" alt="mail" />
-              </li>
-              <li>
-                <img src="./accent/image/Call.png" alt="phonecal" />
-              </li>
-            </ul>
           </p>
+          <ul className="agile">
+            <li>
+              <img src="./accent/image/Time.png" alt="contact" />
+            </li>
+            <li>
+              <img src="./accent/image/Email.png" alt="mail" />
+            </li>
+            <li>
+              <img src="./accent/image/Call.png" alt="phonecal" />
+            </li>
+          </ul>
         </div>
         <div className="form">
           <form>

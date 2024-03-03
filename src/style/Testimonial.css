@@ -4,7 +4,11 @@
     margin-left: 14rem;
     display: flex;
     flex-direction: column;   
+    margin-top: 3em;
+    
 }
+
+
 
 
 .ego {
@@ -33,3 +37,33 @@
     display: flex;
     justify-content: center;
 } 
+
+@media (width <=48em) {
+    .testimonial {
+        margin-top: 30em;
+        width: 71em;
+
+    }
+    .ti, .tip {
+        font-size: 40px;
+        width: 500px
+    }
+
+    .ego {
+        margin-left: 4em;
+    }
+
+    .arrow {
+        margin-top: 189px;
+        cursor: pointer;
+        margin-left: 12px;
+       
+    }
+
+    .nial {
+        width: 600px;
+    }
+    
+
+
+}

@@ -52,19 +52,16 @@ const Footer = () => {
         </ul>
       </div>
 
-      <div className="copyright">
-        <div className="cy">
-          <p className="copy">
-            Copyright © TransitFlow | Designed by VictorFlow - Powered by
-            Webflow.
-          </p>
-          <ul className="right">
-            <li>Style Guide</li>
-            <li>Licences</li>
-            <li>Chargelog</li>
-            <li>Password</li>
-          </ul>
-        </div>
+      <div className="cy">
+        <p className="copy">
+          Copyright © TransitFlow | Designed by VictorFlow - Powered by Webflow.
+        </p>
+        <ul className="right">
+          <li>Style Guide</li>
+          <li>Licences</li>
+          <li>Chargelog</li>
+          <li>Password</li>
+        </ul>
       </div>
     </div>
   );

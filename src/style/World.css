@@ -13,11 +13,16 @@ section {
 
 .world {
     display: flex;
+    flex-direction: column;
     gap: 10px;
     margin-left: 5rem;
     margin-top: 2rem;
     position: relative;
     
+}
+
+.qw {
+    display: flex;
 }
 
 .trans {
@@ -57,18 +62,30 @@ section {
 
 @media (width <=48em) {
     .backg {
-        max-width: 120em;
-        width: 100em;
+        height: 30em;
+        width: 105em;
+        margin-top: 240em;
     
 
     }
 
     .world {
-        margin-top: 7em;
+        margin-top: 23em;
         margin-left: 11em;
     }
     .works {
         font-size: 26px;
         width: 200px;
     }
-}
+
+    .trans {
+        margin-top: 8.5em;
+        margin-left: 7em;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        width: 600px;
+        font-size: 42px;
+    }
+} 

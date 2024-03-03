@@ -15,7 +15,7 @@ const Choose = () => {
         </div>
         <div className="plane">
           <p className="whhy">Why Choose Us</p>
-          <h2>we create opportunity to reach people</h2>
+          <h2 className="odd">we create opportunity to reach people</h2>
           <p className="opp">
             Leverage agile framework to provide synosis for strategy foster
             collaborative thinking to further the overall value preposition

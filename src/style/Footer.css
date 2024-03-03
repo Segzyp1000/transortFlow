@@ -45,8 +45,8 @@ padding: 15px;
     position: absolute;
     top: 6958px;
     left: 413px;
-    gap: 23px;
-    margin-top: 26px;
+    gap: 25px;
+    margin-top: 60px;
     margin-left: 30px;
     list-style: none;
 
@@ -54,7 +54,7 @@ padding: 15px;
 
 .oja li {
     gap: 10px;
-    margin-top:12px;
+    margin-top:18px;
     width: 110px;
    
 }
@@ -63,7 +63,6 @@ padding: 15px;
     color: black;
     height:50px;
     width: 120px;
-    margin-top: 3px;
     cursor: pointer;
     list-style: none;
     
@@ -76,7 +75,6 @@ padding: 15px;
 .inp {
     width: 250px;
     height: 50px;
-    gap: 20px;
 }
 
 .tyy {
@@ -88,22 +86,15 @@ padding: 15px;
     left: 0;
     top: 1;
 }
-/* 
-.copyright {
-    border: 1px solid #4E5683;
-    height: 20px;
-   
-
-} */
 
 .cy {
-    margin-top: 13rem;
+    margin-top: 15rem;
     margin-left: 13rem;
     display: flex;
     font-size: 13.5px;
 
    
-}
+}s
 
 .right {
     font-family: krub;
@@ -120,11 +111,7 @@ padding: 15px;
     display: flex;
 }
 
-@media (width <=48em) {
-    .footer {
-        width: 115em
-    }
-}
+ 
 
 
 

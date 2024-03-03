@@ -14,12 +14,10 @@ const Banner = () => {
             <img
               src="./accent/image/Icon (3).png"
               alt="SER"
-              className="trans"
+              className="transort"
             />
           </div>
-          <div>
-            <img src="./accent/image/Line.png" alt="line" className="tra" />
-          </div>
+
           <div>
             <h4 className="joy">Sea Transport Services</h4>
             <p className="joy">
@@ -34,12 +32,10 @@ const Banner = () => {
             <img
               src="./accent/image/Icon (4).png"
               alt="SER"
-              className="trans"
+              className="transort"
             />
           </div>
-          <div>
-            <img src="./accent/image/Line.png" alt="line" className="tra" />
-          </div>
+
           <div>
             <h4 className="joy">Warehousing services</h4>
             <p className="joy">
@@ -54,11 +50,8 @@ const Banner = () => {
             <img
               src="./accent/image/Icon (5).png"
               alt="SER"
-              className="trans"
+              className="transort"
             />
-          </div>
-          <div>
-            <img src="./accent/image/Line.png" alt="line" className="tra" />
           </div>
 
           <div>
@@ -75,12 +68,10 @@ const Banner = () => {
             <img
               src="./accent/image/Icon (6).png"
               alt="SER"
-              className="trans"
+              className="transort"
             />
           </div>
-          <div>
-            <img src="./accent/image/Line.png" alt="line" className="tra" />
-          </div>
+
           <div>
             <h4 className="joy">Local Shipping Services</h4>
             <p className="joy">

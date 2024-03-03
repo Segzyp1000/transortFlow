@@ -60,22 +60,39 @@
 
 @media (width <=48em) {
     .about {
-        
-        width: 120em;
-        height: 400px;
+        margin-top: 13em;
+        width: 105em;
+        height: 500px;
     }
 
     .abou {
-        margin-left: 15em;
+        margin-left: 6em;
+        margin-top: 160em;
+        width: 80em;
+        display: flex;
+        gap: 70px;
+        height:759px;
     }
 
+    .leve {
+        font-size: 38px;
+    }
+    
+
     .leverage {
-        font-size: 25px;
+        font-size: 40px;
+        width: 500px;
     }
 
     .sided {
-        margin-top: 1em;
+        margin-top: 5em;
+    }
+
+    .stat {
+        margin-top: 35em;
+        position: absolute;
+        left: 0;
     }
 
     
-}
+} 

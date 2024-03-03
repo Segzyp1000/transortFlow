@@ -101,7 +101,17 @@ form div {
 
   @media (width <=48em) {
     .touch {
-      width: 115em;
+      width: 105em;
+    }
+    .contact {
+      margin-left: 15em;
+    }
+    .imgg {
+      margin-left: 15em;
+    
+    }
+    .contacted  {
+      margin-top: 128em;
     }
   }
   
