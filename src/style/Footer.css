@@ -4,7 +4,7 @@
     max-width: 1920px;
     width: 100%;
     height: 900px;   
-    margin-top: 60px;
+    
 }
 
 .footerpic{
@@ -94,17 +94,20 @@ padding: 15px;
     font-size: 13.5px;
 
    
-}s
+}
 
 .right {
     font-family: krub;
     color: #8388A7;
     list-style: none;
     display: flex;
+    
 }
 
 .right li {
     margin-left: 5px;
+    list-style: none;
+   
 }
 
 .sub li {
@@ -112,7 +115,34 @@ padding: 15px;
 }
 
  
-
+@media (width <=48em) {
+.footer {
+    width: 105em;
+    margin-top: 80em;
+    height: 1000px;
+}
+.tyy {
+    width: 105em;
+}
+.oja {
+    margin-top: 266em;
+    margin-left: 9em;
+}
+.oja li, .oja h3  {
+    font-size: 20px;
+}
+.foot {
+    font-size: 20px;
+    width: 250px;
+}
+.copy {
+    font-size: 20px;
+    margin-top:4dvi;
+}
+.right li {
+    font-size: 17px;
+}
+}
 
 
 

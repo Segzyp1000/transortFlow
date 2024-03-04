@@ -75,7 +75,6 @@
 .package {
     width: 30px;
     height: 30px;
-    
     margin-right: 10px;
 
 }
@@ -108,7 +107,7 @@
     }
 
     .whhy, .odd {
-        width: 400px;
+        width: 500px;
     }
     
     .opp, .odd, .whhy  {
@@ -117,11 +116,23 @@
 
     .firstbg {
         
-        height: 900px;
+        height: 990px;
     
         
     }
     .secondbg {
-        height: 900px;
+        height: 990px;
+    }
+
+    .line{
+        font-size: 30px;
+        width: 300px;
+    }
+
+    .aeroplane {
+        margin-top: 20em;
+    }
+    .feature {
+        margin-top: 32em;
     }
 }

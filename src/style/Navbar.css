@@ -57,18 +57,24 @@ nav {
     }
     .men li {
         margin-left: 1.5em;
-        font-size: 1.5em;
-        font-family: "Roboto", sans-serif;
+        font-size: 2em;
     }
 
     .menu li {
-        margin-left: 1.5em;
-        font-size: 1.6em;
+        margin-left: 1em;
+        font-size: 2em;
     }
 
+    .men {
+        margin-left: 2px;
+    }
+
+    
+
     .cote {
-        font-size: 20px;
+        font-size: 25px;
         font-weight: bold;
+        width: 200px;
     }
 }
 

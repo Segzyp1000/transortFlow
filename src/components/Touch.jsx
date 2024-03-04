@@ -7,7 +7,7 @@ const Touch = () => {
       <div className="contact">
         <div className="con">
           <p className="tt">contact</p>
-          <h2>Get in Touch with Us</h2>
+          <h2 className="ttt">Get in Touch with Us</h2>
           <p className="touchp">
             Leverage agile frameworks to provide a robust synopsis for strategy
             foster collaborative thinking to further the overall value.
@@ -28,12 +28,19 @@ const Touch = () => {
           <form>
             <div className="e1">
               <div>
-                <input type="text" id="name" name="name" placeholder="Name*" />
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  className="init"
+                  placeholder="Name*"
+                />
               </div>
               <div>
                 <input
                   type="email"
                   id="email"
+                  className="init"
                   name="email"
                   placeholder="Email*"
                 />
@@ -43,12 +50,18 @@ const Touch = () => {
               <div>
                 <input
                   type="number"
+                  className="init"
                   id="phonenumber"
                   placeholder="Phone Number*"
                 />
               </div>
               <div>
-                <input type="city" id="city" placeholder="City*" />
+                <input
+                  type="city"
+                  id="city"
+                  className="init"
+                  placeholder="City*"
+                />
               </div>
             </div>
             <div>

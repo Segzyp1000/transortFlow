@@ -6,18 +6,18 @@ const News = () => {
     <div className="news">
       <div className="blog">
         <div className="parr">
-          <p>Our blog</p>
-          <h2>Our Latest News</h2>
+          <p className="vlog">Our blog</p>
+          <h2 className="vlogy">Our Latest News</h2>
         </div>
         <div className="newsletter">
           <div className="jjj">
             <img src="/accent/image/blog1.png" alt="" className="blogger" />
             <img src="/accent/image/Date1.png" alt="" className="date" />
             <div className="fr">
-              <h3 className="yello">
+              <h2 className="yello">
                 Inland freight a worthy solution for your business
-              </h3>
-              <p className="light">
+              </h2>
+              <p className="lighted">
                 We are dedicated in creating added value for our customers by
                 implementing modern technology in our work
               </p>
@@ -33,10 +33,10 @@ const News = () => {
             <img src="/accent/image/blog2.png" alt="" className="blogger" />
             <img src="/accent/image/Date2.png" alt="" className="date" />
             <div className="fr">
-              <h3 className="yellow">
+              <h2 className="yellow">
                 How technology can help redraw the supply chain map
-              </h3>
-              <p className="light">
+              </h2>
+              <p className="lighted">
                 We are dedicated in creating added value for our customers by
                 implementing modern technology in our work.
               </p>
@@ -52,10 +52,10 @@ const News = () => {
             <img src="/accent/image/blog3.png" alt="" className="blogger" />
             <img src="/accent/image/Date3.png" alt="" className="date" />
             <div className="fr">
-              <h3 className="yello">
+              <h2 className="yello">
                 Five things you should have ready for your broker
-              </h3>
-              <p className="light">
+              </h2>
+              <p className="lighted">
                 We are dedicated in creating added value for our customers by
                 implementing modern technology in our work.
               </p>

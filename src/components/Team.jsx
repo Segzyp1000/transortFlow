@@ -6,7 +6,7 @@ const Team = () => {
     <div className="team">
       <article>
         <div className="group">
-          <p>The Transporter</p>
+          <p className="greet">The Transporter</p>
           <h2 className="meet">Meet the Expert Team</h2>
         </div>
         <div className="together">

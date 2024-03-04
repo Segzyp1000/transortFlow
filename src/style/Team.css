@@ -33,3 +33,20 @@ article {
 .person {
     width: 300px;
 }
+
+
+@media (width <=48em) {
+    .team {
+        width: 95em;
+    }
+    .person {
+        width: 400px;
+    }
+
+    .greet, .meet {
+        font-size: 40px;
+
+    }
+
+    
+}

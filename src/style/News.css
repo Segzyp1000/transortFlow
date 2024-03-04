@@ -1,9 +1,10 @@
 .news {
     color: #000;
-    width: 900px;
+    max-width: 1920px;
+    width: 1400px;
     height: 1300px;
     margin-top: 4rem;
-    margin-left: 14rem;
+    margin-left: 7rem;
 }
 .blog {
     display: flex;
@@ -41,8 +42,7 @@
     height: 200px;
 }
 
-.light {
-font-family: Krub;
+.lighted {
 font-size: 14px;
 font-weight: 500;
 line-height: 21px;
@@ -75,4 +75,45 @@ width: 300px
     position: absolute;
     margin-top: 80rem;
 
+}
+
+@media (width <=48em) {
+
+    .news {
+        width: 105em;
+        margin-left: 1rem;
+    }
+
+    .yello, .yellow {
+        font-size: 40px;
+        width: 500px;
+    }
+
+    .vlog, .vlogy {
+        font-size: 50px;
+    }
+    .lighted, .lighte, .lighty {
+        width: 500px;
+        font-size: 30px;
+        line-height: 1.3;
+    }
+ 
+    .re {
+        font-size: 30px;
+        width: 500px;
+    }
+
+    .mg {
+        margin-top: 60em;
+        width: 300px;
+        font-size: 40px;
+        padding: 20px;
+        height: 70px;
+    }
+    .blogger {
+        height: 500px;
+    }
+    .date {
+        margin-top: 50px;
+    }
 }
