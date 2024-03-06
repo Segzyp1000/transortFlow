@@ -47,22 +47,24 @@ nav {
     font-size: 17px;
 }
 
-@media (width <=48em) {
+@media screen and (max-width: 37.5em) {
     .navbar {
-        width: 105em;
+        width: 107em;
     }
 
     nav {
-        margin-left: 5em;
+        margin-left: 7em;
+        position: relative;
+        right: 3em;
     }
     .men li {
         margin-left: 1.5em;
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
     .menu li {
         margin-left: 1em;
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
     .cote {
@@ -71,4 +73,3 @@ nav {
         width: 200px;
     }
 }
-

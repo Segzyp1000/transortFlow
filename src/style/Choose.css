@@ -91,10 +91,10 @@
     width: 250px;
     margin-left: 18rem;
 }
- @media (width <=48em) {
+@media screen and (max-width: 37.5em) {
     
     .why {
-        width: 105em;
+        width: 107em;
         
     }
     .plane {
@@ -136,3 +136,4 @@
         margin-top: 32em;
     }
 }
+

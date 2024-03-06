@@ -34,11 +34,12 @@ article {
     width: 300px;
 }
 
+@media screen and (max-width: 37.5em) {
 
-@media (width <=48em) {
     .team {
-        width: 95em;
+        margin-left: 11em;
     }
+    
     .person {
         width: 400px;
     }
@@ -50,3 +51,4 @@ article {
 
     
 }
+

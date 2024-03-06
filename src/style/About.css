@@ -1,7 +1,7 @@
 .about {
     background: url('/public/accent/image/background2.png');
     max-width: 1925px;
-    width: 100%;
+    width: 1400px;
     height: 300px;
     margin-top: 22rem;
 }
@@ -58,10 +58,10 @@
     gap: 20px;
 }
 
-@media (width <=48em) {
+@media screen and (max-width: 37.5em) {
     .about {
         margin-top: 13em;
-        width: 105em;
+        width: 107em;
         height: 500px;
     }
 
@@ -93,6 +93,6 @@
         position: absolute;
         left: 0;
     }
-
-    
+ 
 } 
+

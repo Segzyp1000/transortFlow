@@ -38,10 +38,10 @@
     justify-content: center;
 } 
 
-@media (width <=48em) {
+@media screen and (max-width: 37.5em){
     .testimonial {
         margin-top: 30em;
-        width: 71em;
+        
 
     }
     .ti, .tip {
@@ -56,7 +56,8 @@
     .arrow {
         margin-top: 189px;
         cursor: pointer;
-        margin-left: 12px;
+        position: relative;
+        left: 15rem;
        
     }
 
@@ -67,3 +68,4 @@
 
 
 }
+

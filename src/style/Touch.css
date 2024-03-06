@@ -99,14 +99,14 @@ form div {
     width: 2px;
   }
 
-  @media (width <=48em) {
+  @media screen and (max-width: 37.5em) {
     .touch {
-      width: 105em;
+      width: 107em;
       height: 1100px;
      
     }
     .contact {
-      margin-left: 15em;
+      margin-left: 7em;
       width: 700px;
       height: 800px;
     
@@ -117,7 +117,8 @@ form div {
     
     }
     .contacted  {
-      margin-top: 187em;
+      margin-top: 189em;
+      width: 270px;
     }
 
     .tt, .ttt {
@@ -125,6 +126,7 @@ form div {
     }
     .touchp {
       font-size: 30px;
+      line-height: 1.5;
       width: 600px;
     }
     .init {

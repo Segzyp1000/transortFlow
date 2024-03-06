@@ -60,10 +60,10 @@ section {
 
 }
 
-@media (width <=48em) {
+@media screen and (max-width: 37.5em) {
     .backg {
         height: 30em;
-        width: 105em;
+        width: 107em;
         margin-top: 242em;
     
 
@@ -89,3 +89,4 @@ section {
         font-size: 42px;
     }
 } 
+

@@ -44,7 +44,7 @@
 
 
 
- @media (width <=48em) {
+@media screen and (max-width: 37.5em) {
     .banner {
         margin-left: 2em;
         width: 95em;
@@ -100,3 +100,4 @@
         font-size: 20px;
     }
 }  
+

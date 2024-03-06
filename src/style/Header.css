@@ -40,11 +40,11 @@
     }
 
 
-    @media (width <=48em) {
+    
+    @media screen and (max-width: 37.5em) {
         .header {
-            width: 105em;
+            width: 107em;
         }
-
         .logo-header {
             width: 50em;
             position: absolute;
@@ -52,9 +52,31 @@
             
         }
 
-        .list {
-            width: 40em;
+
+    }
+
+    /* @media (width <=64em)  {
+       .header {
+        width: 64em;
+       } 
+
+       .logo-header {
+        width: 20em;
+        position: absolute;
+        left: 0;
+        margin-left: 12em;
+            
         }
+
+        .list {
+            width: 30em;
+            gap: 3px;
+            height: 30px;
+        }
+
+        
     }
 
     
+
+     */

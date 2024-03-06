@@ -47,10 +47,10 @@
     background: url('/public/accent/image/Background-btn.png');
 }
 
-@media (width <=48em) {
+@media screen and (max-width: 37.5em) {
     .showcase {
-        width: 105em;
-        height:600px;
+        width: 107em;
+        height:650px;
     }
     .show {
         margin-left: 8em;
